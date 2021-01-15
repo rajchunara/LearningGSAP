@@ -1,0 +1,39 @@
+.home-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+  font-family: poppins;
+}
+
+.red-square {
+  width: 100px;
+  height: 100px;
+  background-color: #f94d4d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #1f1f1f;
+  font-weight: 600;
+}
+
+.start-btn {
+  color: #17384b;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 3px;
+  background-color: whitesmoke;
+  font-weight: 700;
+  font-family: poppins;
+  outline: none;
+}
+
+.start-btn:hover {
+  cursor: pointer;
+}
