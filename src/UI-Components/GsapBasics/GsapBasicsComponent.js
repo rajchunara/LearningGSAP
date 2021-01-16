@@ -3,6 +3,10 @@ import "./home.css";
 import gsap from "gsap";
 
 import styled from "styled-components";
+import {
+  ButtonContainer,
+  Button
+} from "../../Utility-Components//ButtonComponents";
 
 const BlueBox = styled.div`
   width: 100px;
@@ -18,28 +22,6 @@ const BlueBox = styled.div`
 
 const GreenBox = styled(BlueBox)`
   background-color: #53e28a;
-`;
-
-const ButtonContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-`;
-
-const Button = styled.button`
-  color: #17384b;
-  border: none;
-  padding: 4px 6px;
-  border-radius: 3px;
-  background-color: whitesmoke;
-  font-weight: 700;
-  font-family: poppins;
-  outline: none;
-  margin-left: 10px;
-
-  :hover {
-    cursor: pointer;
-  }
 `;
 
 //Basic steps to get started with gsap in react
