@@ -14,6 +14,7 @@ export const StyledNavBar = styled(Navbar)`
   position: absolute;
   top: 0px;
   left: 0px;
+  z-index: 1;
   @media screen and (max-width: 850px) {
     min-width: 300px;
     transition: all 0.5s;
