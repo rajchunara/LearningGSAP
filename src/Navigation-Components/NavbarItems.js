@@ -47,6 +47,9 @@ const NavbarItems = () => {
       <Link to="/easing" style={{ textDecoration: "none" }}>
         <NavItems> Easing in Gsap </NavItems>
       </Link>
+      <Link to="/timeline-basics" style={{ textDecoration: "none" }}>
+        <NavItems> Gsap Timeline Basics</NavItems>
+      </Link>
       {/* <Link to="/about" style={{ textDecoration: "none" }}>
         <NavItems>About</NavItems>
       </Link>
