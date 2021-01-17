@@ -44,6 +44,9 @@ const NavbarItems = () => {
       <Link to="/staggered" style={{ textDecoration: "none" }}>
         <NavItems> Staggered Animation </NavItems>
       </Link>
+      <Link to="/easing" style={{ textDecoration: "none" }}>
+        <NavItems> Easing in Gsap </NavItems>
+      </Link>
       {/* <Link to="/about" style={{ textDecoration: "none" }}>
         <NavItems>About</NavItems>
       </Link>
